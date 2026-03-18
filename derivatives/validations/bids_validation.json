@@ -3,197 +3,197 @@
     "issues": [
       {
         "code": "UNKNOWN_BIDS_VERSION",
-        "severity": "ignore",
         "location": "/dataset_description.json",
-        "rule": "rules.checks.dataset.UnknownVersion"
+        "rule": "rules.checks.dataset.UnknownVersion",
+        "severity": "ignore"
       },
       {
         "code": "README_FILE_MISSING",
-        "severity": "ignore",
         "location": "/dataset_description.json",
-        "rule": "rules.checks.hints.ReadmeFileMissing"
+        "rule": "rules.checks.hints.ReadmeFileMissing",
+        "severity": "ignore"
       },
       {
         "code": "TOO_FEW_AUTHORS",
-        "severity": "ignore",
         "location": "/dataset_description.json",
-        "rule": "rules.checks.hints.TooFewAuthors"
+        "rule": "rules.checks.hints.TooFewAuthors",
+        "severity": "ignore"
       },
       {
         "code": "JSON_KEY_RECOMMENDED",
         "subCode": "SourceDatasets",
-        "severity": "warning",
         "location": "/dataset_description.json",
-        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n",
-        "rule": "rules.dataset_metadata.dataset_description"
+        "severity": "warning",
+        "rule": "rules.dataset_metadata.dataset_description",
+        "issueMessage": "Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).\nValid keys in each object include `\"URL\"`, `\"DOI\"` (see\n[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and\n`\"Version\"` with\n[string](https://www.w3schools.com/js/js_json_datatypes.asp)\nvalues.\n"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "x",
-        "severity": "warning",
         "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "y",
-        "severity": "warning",
         "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
-        "subCode": "impedance",
-        "severity": "warning",
-        "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_electrodes.json",
         "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "subCode": "impedance",
+        "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_electrodes.json",
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
-        "severity": "warning",
         "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_ecephys.nwb",
-        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
-        "rule": "rules.sidecars.microephys.microephysSetup"
+        "severity": "warning",
+        "rule": "rules.sidecars.microephys.microephysSetup",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "RecordingType",
-        "severity": "warning",
         "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_ecephys.nwb",
-        "issueMessage": "Field description: Defines whether the recording is `\"continuous\"`, `\"discontinuous\"`, or\n`\"epoched\"`, where `\"epoched\"` is limited to time windows about events of\ninterest (for example, stimulus presentations or subject responses).\n",
-        "rule": "rules.sidecars.microephys.microephysSetup"
+        "severity": "warning",
+        "rule": "rules.sidecars.microephys.microephysSetup",
+        "issueMessage": "Field description: Defines whether the recording is `\"continuous\"`, `\"discontinuous\"`, or\n`\"epoched\"`, where `\"epoched\"` is limited to time windows about events of\ninterest (for example, stimulus presentations or subject responses).\n"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "sampling_frequency",
-        "severity": "warning",
         "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_channels.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysChannels"
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "gain",
-        "severity": "warning",
         "location": "/sub-Godzilla+2+STD/ses-LITMUS+Rat+2+STD/ecephys/sub-Godzilla+2+STD_ses-LITMUS+Rat+2+STD_channels.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysChannels"
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "x",
-        "severity": "warning",
         "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "y",
-        "severity": "warning",
         "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "impedance",
-        "severity": "warning",
         "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "sampling_frequency",
-        "severity": "warning",
         "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_channels.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysChannels"
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
-        "subCode": "gain",
-        "severity": "warning",
-        "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_channels.json",
         "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysChannels"
+        "subCode": "gain",
+        "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_channels.json",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "warning"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
-        "severity": "warning",
         "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_ecephys.nwb",
-        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
-        "rule": "rules.sidecars.microephys.microephysSetup"
+        "severity": "warning",
+        "rule": "rules.sidecars.microephys.microephysSetup",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "RecordingType",
-        "severity": "warning",
         "location": "/sub-Godzilla+0+STD/ses-LITMUS+Rat+0+STD/ecephys/sub-Godzilla+0+STD_ses-LITMUS+Rat+0+STD_ecephys.nwb",
-        "issueMessage": "Field description: Defines whether the recording is `\"continuous\"`, `\"discontinuous\"`, or\n`\"epoched\"`, where `\"epoched\"` is limited to time windows about events of\ninterest (for example, stimulus presentations or subject responses).\n",
-        "rule": "rules.sidecars.microephys.microephysSetup"
+        "severity": "warning",
+        "rule": "rules.sidecars.microephys.microephysSetup",
+        "issueMessage": "Field description: Defines whether the recording is `\"continuous\"`, `\"discontinuous\"`, or\n`\"epoched\"`, where `\"epoched\"` is limited to time windows about events of\ninterest (for example, stimulus presentations or subject responses).\n"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "x",
-        "severity": "warning",
         "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "y",
-        "severity": "warning",
         "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_electrodes.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
-        "subCode": "impedance",
-        "severity": "warning",
-        "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_electrodes.json",
         "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysElectrodes"
+        "subCode": "impedance",
+        "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_electrodes.json",
+        "rule": "rules.tabular_data.microephys.microephysElectrodes",
+        "severity": "warning"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "Manufacturer",
-        "severity": "warning",
         "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_ecephys.nwb",
-        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n",
-        "rule": "rules.sidecars.microephys.microephysSetup"
+        "severity": "warning",
+        "rule": "rules.sidecars.microephys.microephysSetup",
+        "issueMessage": "Field description: Manufacturer of the equipment that produced the measurements.\n"
       },
       {
         "code": "SIDECAR_KEY_RECOMMENDED",
         "subCode": "RecordingType",
-        "severity": "warning",
         "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_ecephys.nwb",
-        "issueMessage": "Field description: Defines whether the recording is `\"continuous\"`, `\"discontinuous\"`, or\n`\"epoched\"`, where `\"epoched\"` is limited to time windows about events of\ninterest (for example, stimulus presentations or subject responses).\n",
-        "rule": "rules.sidecars.microephys.microephysSetup"
+        "severity": "warning",
+        "rule": "rules.sidecars.microephys.microephysSetup",
+        "issueMessage": "Field description: Defines whether the recording is `\"continuous\"`, `\"discontinuous\"`, or\n`\"epoched\"`, where `\"epoched\"` is limited to time windows about events of\ninterest (for example, stimulus presentations or subject responses).\n"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
+        "issueMessage": "Format \"string\" must be number",
         "subCode": "sampling_frequency",
-        "severity": "warning",
         "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_channels.json",
-        "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysChannels"
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "warning"
       },
       {
         "code": "TSV_COLUMN_TYPE_REDEFINED",
-        "subCode": "gain",
-        "severity": "warning",
-        "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_channels.json",
         "issueMessage": "Format \"string\" must be number",
-        "rule": "rules.tabular_data.microephys.microephysChannels"
+        "subCode": "gain",
+        "location": "/sub-Godzilla+4+STD/ses-LITMUS+Rat+4+STD/ecephys/sub-Godzilla+4+STD_ses-LITMUS+Rat+4+STD_channels.json",
+        "rule": "rules.tabular_data.microephys.microephysChannels",
+        "severity": "warning"
       }
     ],
     "codeMessages": {
