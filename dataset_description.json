@@ -4,7 +4,9 @@
     "HEDVersion": "8.3.0",
     "Description": "Three synthetic datasets based on real multi-channel intramuscular recordings of motor unit action potentials from 10 unique motor units with high SNR (200-250). Each dataset has 8 channels and is 10 minutes long. Although low background noise was observed, waveform shapes were observed to have an inherent shape variability, so this Dandiset provides three different levels of waveform shape noise variability: 0, 2, and 4 STD (computed from the Kilosort spatial template matrix).",
     "DatasetType": "raw",
-    "Authors": [],
+    "Authors": [
+        "O'Connell, Sean"
+    ],
     "License": "CC-BY-4.0",
     "GeneratedBy": [
         {

@@ -1,0 +1,1 @@
+{"sanitization_config":{"sub_labels":true,"ses_labels":true},"sanitization_file_path":"/data/dandi/bids-dandisets/work/001073/.nwb2bids/datetime-20260421031242_sanitization.txt","original_participant_id":"Godzilla_4-STD","original_session_id":"LITMUS_Rat_4-STD","sanitized_participant_id":"Godzilla+4+STD","sanitized_session_id":"LITMUS+Rat+4+STD"}
